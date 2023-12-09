@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #FAFAFA;
+    overflow-x: hidden;
+} 
+
+.bg-button {
+    background: linear-gradient(135deg, #230063 0%,#8c49ff 50%,#330a7f 100%);
+  }
+button-hover {
+  background: linear-gradient(135deg, #2c1951 7%,#4703bf 100%);
+  }
+
+  .dark-yellow-gradient {
+    background: linear-gradient(135deg, #ff9601 31%,#ffb901 46%);
+  }
+
+  .light-yellow-gradient {
+    background: linear-gradient(to bottom, #ffb710 3%,#ffdc80 65%)
+  }

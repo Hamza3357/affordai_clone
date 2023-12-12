@@ -6,7 +6,7 @@ import dashboard from '../assets/dashboard.png'
 
 const Sectionone = () => {
   return (
-    <>
+<div>
     <div className='w-screen h-screen flex items-center justify-center'>
     
     <div style={{ backgroundImage: `url(${purplebackgroundimage})` }} className='h-[90vh] w-11/12 text-center mx-14 py-10 rounded-xl bg-cover bg-center'>
@@ -34,10 +34,10 @@ const Sectionone = () => {
 
     </div>
     </div>
-    <div className='w-4/5 mx-auto mt-[-280px] overflow-hidden'>
+    <div className='w-4/5 mx-auto mt-[-280px]'>
     <img src={dashboard} className='h-full w-full object-cover rounded-xl' alt='Dashboard Image' />
 </div>
-  </>
+</div>
   
   )
 }

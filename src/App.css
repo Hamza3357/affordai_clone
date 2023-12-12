@@ -5,3 +5,12 @@ body {
 li {
     margin: 0 10px;
 }
+
+
+.marquee-container {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+

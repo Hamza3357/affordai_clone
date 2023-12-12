@@ -6,6 +6,7 @@
        extend: {
         colors: {
           'custom-gradient': 'linear-gradient(135deg, #230063 0%, #8c49ff 50%, #330a7f 100%);',
+          customColor: '#03cc3b',
             },
         fontFamily: {
           manrope: ['Manrope', 'sans-serif'],
